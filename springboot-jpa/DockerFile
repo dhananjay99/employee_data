@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/location-1.jar location-1.jar
+ADD target/springboot-jpa-1.1.10 springboot-jpa-1.1.10
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "location-1.jar"]
+ENTRYPOINT ["java", "-jar", "springboot-jpa-1.1.10"]
