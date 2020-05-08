@@ -60,7 +60,7 @@ public class EmployeeController {
 			List<Employee> emp = employeeRepository.findAll();
 
 			System.out.print("emp----------->" + emp);
-
+			System.out.print("all added");
 			return emp;
 
 		} catch (Exception ex) {
