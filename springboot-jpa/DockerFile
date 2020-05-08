@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/location-1.jar location-1.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "location-1.jar"]
